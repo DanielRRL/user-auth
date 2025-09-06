@@ -5,7 +5,7 @@ import { swaggerSpec } from './config/swagger';
 import helloRoutes from './routes/hello.routes';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(express.json());
